@@ -23,3 +23,8 @@ git clone https://github.com/bhilburn/powerlevel9k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/seebi/dircolors-solarized
 cp dircolors-solarized/dircolors.256dark ~/.dircolors
 rm -rf dircolors-solarized
+
+# install pyenv
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+source ~/.zshrc
+pyenv install anaconda3-4.4.0
