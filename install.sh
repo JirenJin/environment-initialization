@@ -2,7 +2,7 @@
 # zsh, vim, tmux with relatively new version
 
 # clone the dot-files repo first
-git clone --recursive git://github.com/jinjiren/dot-files.git ~/dot-files
+git clone --recursive git@github.com:jinjiren/dot-files.git ~/dot-files
 
 # soft link for dot files
 ln -s ~/dot-files/zsh-config/zshrc ~/.zshrc
