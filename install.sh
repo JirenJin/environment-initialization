@@ -28,3 +28,8 @@ rm -rf dircolors-solarized
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 . ~/.zshrc
 pyenv install anaconda3-4.4.0
+pyenv rehash
+pyenv gloabl anaconda3-4.4.0
+
+# install vim plugins
+vim +PlugInstall +qall!
