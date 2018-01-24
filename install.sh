@@ -26,10 +26,14 @@ rm -rf dircolors-solarized
 
 # install pyenv
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
-. ~/.zshrc
-pyenv install anaconda3-4.4.0
+source ~/.zshrc
+pyenv install anaconda3-5.0.1
 pyenv rehash
-pyenv gloabl anaconda3-4.4.0
+pyenv gloabl anaconda3-5.0.1
+
+# install cudnn
+pip install cudnnenv
+cudnnenv install v7-cuda8
 
 # install vim plugins
 vim +PlugInstall +qall!
